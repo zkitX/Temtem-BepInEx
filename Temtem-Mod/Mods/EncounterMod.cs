@@ -10,6 +10,7 @@ using Temtem.Network;
 
 namespace TemTemMod.Mods
 {
+    // Credit to shalzuth https://github.com/shalzuth/TemSharp
     public class EncounterMod : MonoBehaviour
     {
         public Dictionary<String, SpawnZoneDefinition.mjoookiqrfh> InitialZoneValues = new Dictionary<string, SpawnZoneDefinition.mjoookiqrfh>();

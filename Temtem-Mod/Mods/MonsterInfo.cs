@@ -13,6 +13,7 @@ using Sfs2X.Requests;
 
 namespace TemTemMod.Mods
 {
+    // Credit to shalzuth https://github.com/shalzuth/TemSharp
     public class MonsterInfo : MonoBehaviour
     {
         static Int32 Margin = 5;

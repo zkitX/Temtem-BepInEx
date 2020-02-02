@@ -11,6 +11,7 @@ using Sfs2X.Requests;
 
 namespace TemTemMod.Mods
 {
+    // Credit to shalzuth https://github.com/shalzuth/TemSharp
     public class ShinyHunter : MonoBehaviour
     {
         Int32 tick = 0;

@@ -22,6 +22,10 @@ namespace TemTemMod
             NetworkLogic.nkqrjhelndm.grcrfnfjqmq();
             TemTemMod.Log("zkitX Temtem Mods", LogLevel.Info, "Temtem healed!");
         }
+
+
+
+        // Credit to shalzuth https://github.com/shalzuth/TemSharp
         static public void OpenBank()
         {
             typeof(UIManager).GetField<UIManager>().dhcnooefhhj();

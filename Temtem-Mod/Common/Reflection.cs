@@ -1,4 +1,4 @@
-﻿//Credit to https://github.com/shalzuth/TemSharp/blob/master/TemSharp/Common/Reflection.cs since I'm lazy.
+﻿// Credit to shalzuth https://github.com/shalzuth/TemSharp
 
 using System;
 using System.Collections.Generic;
