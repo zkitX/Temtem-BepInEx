@@ -34,10 +34,12 @@ namespace TemTemMod
             BaseObject = new GameObject("TemtemMod");
             DontDestroyOnLoad(BaseObject);
             BaseObject.SetActive(false);
+
+            // Credit to shalzuth https://github.com/shalzuth/TemSharp for a efficient way to load mods
             var types = Assembly.GetExecutingAssembly().GetTypes().ToList().Where(t => t.BaseType == typeof(MonoBehaviour) && !t.IsNested);
             foreach (var type in types)
             {
-                var component = (UnityEngine.MonoBehaviour)BaseObject.AddComponent(type);
+                var component = (MonoBehaviour)BaseObject.AddComponent(type);
                 component.enabled = false;
             }
             BaseObject.GetComponent<UserInterface>().enabled = true;

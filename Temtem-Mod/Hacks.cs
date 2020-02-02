@@ -24,7 +24,6 @@ namespace TemTemMod
         }
 
 
-
         // Credit to shalzuth https://github.com/shalzuth/TemSharp
         static public void OpenBank()
         {
